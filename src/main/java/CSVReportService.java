@@ -24,6 +24,12 @@ public class CSVReportService {
      * |10.50  , 20.10, 0     |
      */
     public String getAverageConsumptionPerRoleDuringTheLastMonth() {
-        throw new UnsupportedOperationException();
+        //throw new UnsupportedOperationException();
+
+        String yolo = personsService.toString();
+        //System.out.println(yolo);
+
+        String firstLine = "student, gamer, parent ";
+        return firstLine;
     }
 }
